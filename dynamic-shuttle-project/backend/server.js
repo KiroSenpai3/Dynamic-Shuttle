@@ -311,7 +311,4 @@ io.on('connection', (socket) => {
   socket.on('disconnect', () => clearInterval(simInterval));
 });
 
-const PORT = 5000;
-server.listen(PORT, () => {
-  console.log(`Backend Server running. Object-Oriented Shuttles active on port ${PORT}`);
-});
+module.exports = server;
