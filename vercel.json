@@ -1,12 +1,13 @@
 {
   "services": {
     "frontend": {
-      "root": "frontend/",
+      "root": "dynamic-shuttle-project/frontend/",
       "framework": "vite"
     },
     "backend": {
-      "root": "backend/",
-      "entrypoint": "server:server"
+      "root": "dynamic-shuttle-project/backend/",
+      "entrypoint": "server.js",
+      "framework": "express"
     }
   },
   "rewrites": [
